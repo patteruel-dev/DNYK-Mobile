@@ -1,0 +1,5 @@
+target 'dnykIOS' do
+  use_frameworks!
+  platform :ios, '14.1'
+  pod 'dnykCommon', :path => '../dnykCommon'
+end

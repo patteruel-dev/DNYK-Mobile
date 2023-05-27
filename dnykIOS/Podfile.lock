@@ -1,0 +1,16 @@
+PODS:
+  - dnykCommon (1.0)
+
+DEPENDENCIES:
+  - dnykCommon (from `../dnykCommon`)
+
+EXTERNAL SOURCES:
+  dnykCommon:
+    :path: "../dnykCommon"
+
+SPEC CHECKSUMS:
+  dnykCommon: 29d04978314f8a54168dc749cf07696581811731
+
+PODFILE CHECKSUM: 8ffdca43348a116776077d66e06d0a15478847db
+
+COCOAPODS: 1.11.3
