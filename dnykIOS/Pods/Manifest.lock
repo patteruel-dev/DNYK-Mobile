@@ -1,16 +1,22 @@
 PODS:
+  - AuthFeatureKit (0.1.0):
+    - dnykCommon
   - dnykCommon (1.0)
 
 DEPENDENCIES:
+  - AuthFeatureKit (from `DNYK_Pods/AuthFeatureKit`)
   - dnykCommon (from `../dnykCommon`)
 
 EXTERNAL SOURCES:
+  AuthFeatureKit:
+    :path: DNYK_Pods/AuthFeatureKit
   dnykCommon:
     :path: "../dnykCommon"
 
 SPEC CHECKSUMS:
+  AuthFeatureKit: 93638206ba9e050bc96bb4bc8c3d9caaa4e1c083
   dnykCommon: 29d04978314f8a54168dc749cf07696581811731
 
-PODFILE CHECKSUM: 8ffdca43348a116776077d66e06d0a15478847db
+PODFILE CHECKSUM: 48fa56e7f564e6637f0a12b71c7316f8f7836b47
 
 COCOAPODS: 1.11.3

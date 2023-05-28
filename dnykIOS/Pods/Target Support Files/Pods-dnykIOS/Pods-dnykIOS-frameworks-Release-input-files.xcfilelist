@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-dnykIOS/Pods-dnykIOS-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AuthFeatureKit/AuthFeatureKit.framework
 ${PODS_ROOT}/../../dnykCommon/build/cocoapods/framework/dnykCommon.framework

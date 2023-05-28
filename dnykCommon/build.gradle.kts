@@ -26,9 +26,17 @@ kotlin {
             baseName = "dnykCommon"
         }
     }
-    
+
     sourceSets {
-        val commonMain by getting
+        val commonMain by getting {
+            dependencies {
+                implementation(kotlin("stdlib-common"))
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
+                implementation("io.insert-koin:koin-core:3.4.0")
+                implementation("com.russhwolf:multiplatform-settings:1.0.0")
+                implementation("co.touchlab:kermit:2.0.0-RC4")
+            }
+        }
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test"))

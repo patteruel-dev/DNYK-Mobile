@@ -1,0 +1,6 @@
+framework module AuthFeatureKit {
+  umbrella header "AuthFeatureKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
