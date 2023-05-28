@@ -2,4 +2,17 @@ target 'dnykIOS' do
   use_frameworks!
   platform :ios, '14.1'
   pod 'dnykCommon', :path => '../dnykCommon'
+  
+  # UI Kit Custom Libraries
+  pod 'AuthFeatureKit', :path => 'DNYK_Pods/AuthFeatureKit'
+end
+
+post_install do |installer|
+  installer.generated_projects.each do |project|
+    project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+         end
+    end
+  end
 end

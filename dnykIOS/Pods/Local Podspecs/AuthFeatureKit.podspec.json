@@ -1,0 +1,27 @@
+{
+  "name": "AuthFeatureKit",
+  "version": "0.1.0",
+  "summary": "A short description of AuthFeatureKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/patteruel-dev/AuthFeatureKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "patteruel-dev": "jpteruel95@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/patteruel-dev/AuthFeatureKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AuthFeatureKit/Classes/**/*",
+  "resource_bundles": {
+    "AuthFeatureKit": [
+      "AuthFeatureKit/Resources/{*.storyboard,*.xib}"
+    ]
+  }
+}
