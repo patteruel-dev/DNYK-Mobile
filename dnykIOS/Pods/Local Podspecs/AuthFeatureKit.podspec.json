@@ -16,12 +16,17 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "14.0"
   },
   "source_files": "AuthFeatureKit/Classes/**/*",
   "resource_bundles": {
     "AuthFeatureKit": [
       "AuthFeatureKit/Resources/{*.storyboard,*.xib}"
+    ]
+  },
+  "dependencies": {
+    "dnykCommon": [
+
     ]
   }
 }

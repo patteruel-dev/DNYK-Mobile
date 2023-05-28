@@ -11,6 +11,7 @@
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		437A74E32A234B6E0090F171 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437A74E22A234B6E0090F171 /* AppDelegate.swift */; };
 		437A74E52A234BD40090F171 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437A74E42A234BD40090F171 /* SceneDelegate.swift */; };
+		438DCC752A23666E00A66101 /* Startup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438DCC742A23666E00A66101 /* Startup.storyboard */; };
 		439E7EFF2A234E5800C42FAC /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439E7EFE2A234E5800C42FAC /* AppCoordinator.swift */; };
 		C09C76DC367D606ECFDCBC18 /* Pods_dnykIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F31C6BD4C3ADB14B8704F03 /* Pods_dnykIOS.framework */; };
 /* End PBXBuildFile section */
@@ -20,6 +21,7 @@
 		058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		437A74E22A234B6E0090F171 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		437A74E42A234BD40090F171 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		438DCC742A23666E00A66101 /* Startup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Startup.storyboard; sourceTree = "<group>"; };
 		439E7EFE2A234E5800C42FAC /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		6F31C6BD4C3ADB14B8704F03 /* Pods_dnykIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dnykIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7555FF7B242A565900829871 /* dnykIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dnykIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +73,7 @@
 			children = (
 				058557BA273AAA24004C7B11 /* Assets.xcassets */,
 				7555FF8C242A565B00829871 /* Info.plist */,
+				438DCC742A23666E00A66101 /* Startup.storyboard */,
 				058557D7273AAEEB004C7B11 /* Preview Content */,
 				437A74E22A234B6E0090F171 /* AppDelegate.swift */,
 				437A74E42A234BD40090F171 /* SceneDelegate.swift */,
@@ -156,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				438DCC752A23666E00A66101 /* Startup.storyboard in Resources */,
 				058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */,
 				058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */,
 			);
